@@ -215,7 +215,7 @@ def get_authenticated_service():
     type_key = "web" if "web" in client_config else "installed"
     cfg = client_config[type_key]
     
-    redirect_uri = "https://bus-stop-survey-fwaavwf7uxvxrfbjeqv9nq.streamlit.app/"
+    redirect_uri = "https://surveyappcondition-qctsvvjhe5ruzqorzeeeze.streamlit.app/"
 
     if "code" in st.query_params:
         auth_code = st.query_params["code"]
